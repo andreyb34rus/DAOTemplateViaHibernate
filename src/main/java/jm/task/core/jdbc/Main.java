@@ -13,6 +13,5 @@ public class Main {
         UserServiceImpl.saveUser("John", "Vlissides", (byte) 33);
         UserServiceImpl.getAllUsers();
         UserServiceImpl.cleanUsersTable();
-        UserServiceImpl.dropUsersTable();
     }
 }
