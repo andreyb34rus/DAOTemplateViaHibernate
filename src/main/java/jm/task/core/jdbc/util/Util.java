@@ -42,7 +42,6 @@ public final class Util {
     }
 
     // Building of SessionFactory without cfg.hibernate.xml configure file
-
     private static void createSessionFactory() {
 
         Properties properties = new Properties();
